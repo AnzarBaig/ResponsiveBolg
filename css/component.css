@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap');
+:root{
+    --main-bg-color: rgb(126, 13, 13);
+    --font1: 'Amatic SC', cursive;
+    --font2: 'STIX Two Text', serif;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    max-width:80vw ;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 3px 15px;
+    margin: 0 10px;
+    border: 0.5px solid black;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.form-input{
+    padding: 0 3px;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 13px;
+    font-family: var(--font2);
+
+}
+
+.form-box input, textarea{
+    margin: 10px 0;
+    width: 34vw;
+    border-radius: 5px;
+}
+.content{
+    margin-top: 50px;
+}
